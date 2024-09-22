@@ -25,6 +25,7 @@ public class LoginStep {
 	@When("User enters username {string}")
 	public void user_enters_username(String username) {
 	 System.out.println("Entering username");
+	 System.out.println("TESTTT");
 	 }
 	
 	@When("User enters password {string}")
